@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1344</width>
+    <height>620</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>教学管理系统</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="res.qrc">
+    <normaloff>:/C:/Users/30485/Downloads/8000个ICO图标打包/1_54个分类/net/wwwc.ico</normaloff>:/C:/Users/30485/Downloads/8000个ICO图标打包/1_54个分类/net/wwwc.ico</iconset>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>2</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>2</number>
+    </property>
+    <item>
+     <widget class="QWidget" name="widget" native="true">
+      <property name="minimumSize">
+       <size>
+        <width>100</width>
+        <height>0</height>
+       </size>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>2</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>2</number>
+       </property>
+       <item>
+        <widget class="QToolButton" name="btnSudentInfo">
+         <property name="minimumSize">
+          <size>
+           <width>80</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>学员信息</string>
+         </property>
+         <property name="icon">
+          <iconset resource="res.qrc">
+           <normaloff>:/C:/Users/30485/Downloads/8000个ICO图标打包/1_54个分类/net/NETW0049.ICO</normaloff>:/C:/Users/30485/Downloads/8000个ICO图标打包/1_54个分类/net/NETW0049.ICO</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>60</width>
+           <height>60</height>
+          </size>
+         </property>
+         <property name="checkable">
+          <bool>true</bool>
+         </property>
+         <property name="toolButtonStyle">
+          <enum>Qt::ToolButtonStyle::ToolButtonTextUnderIcon</enum>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QToolButton" name="btnSchedule">
+         <property name="minimumSize">
+          <size>
+           <width>80</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>课程安排</string>
+         </property>
+         <property name="icon">
+          <iconset resource="res.qrc">
+           <normaloff>:/C:/Users/30485/Downloads/8000个ICO图标打包/1_54个分类/net/NETW0049.ICO</normaloff>:/C:/Users/30485/Downloads/8000个ICO图标打包/1_54个分类/net/NETW0049.ICO</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>60</width>
+           <height>60</height>
+          </size>
+         </property>
+         <property name="checkable">
+          <bool>true</bool>
+         </property>
+         <property name="toolButtonStyle">
+          <enum>Qt::ToolButtonStyle::ToolButtonTextUnderIcon</enum>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QToolButton" name="btnFinance">
+         <property name="minimumSize">
+          <size>
+           <width>80</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>财务</string>
+         </property>
+         <property name="icon">
+          <iconset resource="res.qrc">
+           <normaloff>:/C:/Users/30485/Downloads/8000个ICO图标打包/1_54个分类/net/NETW0049.ICO</normaloff>:/C:/Users/30485/Downloads/8000个ICO图标打包/1_54个分类/net/NETW0049.ICO</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>60</width>
+           <height>60</height>
+          </size>
+         </property>
+         <property name="checkable">
+          <bool>true</bool>
+         </property>
+         <property name="toolButtonStyle">
+          <enum>Qt::ToolButtonStyle::ToolButtonTextUnderIcon</enum>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QToolButton" name="btnHonor">
+         <property name="minimumSize">
+          <size>
+           <width>80</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>荣誉墙</string>
+         </property>
+         <property name="icon">
+          <iconset resource="res.qrc">
+           <normaloff>:/C:/Users/30485/Downloads/8000个ICO图标打包/1_54个分类/net/NETW0049.ICO</normaloff>:/C:/Users/30485/Downloads/8000个ICO图标打包/1_54个分类/net/NETW0049.ICO</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>60</width>
+           <height>60</height>
+          </size>
+         </property>
+         <property name="checkable">
+          <bool>true</bool>
+         </property>
+         <property name="toolButtonStyle">
+          <enum>Qt::ToolButtonStyle::ToolButtonTextUnderIcon</enum>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QToolButton" name="btnSystemSetting">
+         <property name="minimumSize">
+          <size>
+           <width>80</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>系统设置</string>
+         </property>
+         <property name="icon">
+          <iconset resource="res.qrc">
+           <normaloff>:/C:/Users/30485/Downloads/8000个ICO图标打包/1_54个分类/net/NETW0049.ICO</normaloff>:/C:/Users/30485/Downloads/8000个ICO图标打包/1_54个分类/net/NETW0049.ICO</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>60</width>
+           <height>60</height>
+          </size>
+         </property>
+         <property name="checkable">
+          <bool>true</bool>
+         </property>
+         <property name="toolButtonStyle">
+          <enum>Qt::ToolButtonStyle::ToolButtonTextUnderIcon</enum>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="verticalSpacer">
+         <property name="orientation">
+          <enum>Qt::Orientation::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>85</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item>
+     <widget class="QStackedWidget" name="stackedWidget">
+      <property name="currentIndex">
+       <number>4</number>
+      </property>
+      <widget class="StudentInfoWidget" name="pageStudentinfo"/>
+      <widget class="ScheduleWidget" name="pageSchedule"/>
+      <widget class="FinancialWidget" name="pageFinance"/>
+      <widget class="HonorWallWidget" name="pageHonor"/>
+      <widget class="SystemSettingsWidget" name="pageSystemSetting"/>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>StudentInfoWidget</class>
+   <extends>QWidget</extends>
+   <header location="global">studentinfowidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>ScheduleWidget</class>
+   <extends>QWidget</extends>
+   <header location="global">schedulewidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>FinancialWidget</class>
+   <extends>QWidget</extends>
+   <header location="global">financialwidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>HonorWallWidget</class>
+   <extends>QWidget</extends>
+   <header location="global">honorwallwidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>SystemSettingsWidget</class>
+   <extends>QWidget</extends>
+   <header location="global">systemsettingswidget.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="res.qrc"/>
+ </resources>
+ <connections/>
+</ui>
